@@ -1,0 +1,13 @@
+.liste-lines {
+padding-left:20px;
+}
+
+.liste-lines li {
+    margin-bottom:10px ;
+} 
+
+.liste-lines a {
+    color:#2673e8;/* Un bleu plus moderne */
+    
+
+}
