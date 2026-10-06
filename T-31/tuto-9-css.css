@@ -1,0 +1,11 @@
+.cache {
+    display: none;
+}
+
+ .citation-bloc {
+    display: block;      
+    margin-top: 20px;    
+    color: gray;
+}
+
+
