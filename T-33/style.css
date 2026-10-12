@@ -1,33 +1,80 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color:rgb(245, 245, 241);
+
+}
+ header img {
+    height: 75px;
+    padding: 0 75 px;
+    display: block;
+    
+ }
+  body > img {
+    height:330px;
+    width: 500px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+
+
+    
+  }
+  p {
+    width: 88%;
+    margin: 15px 6%;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #37629b;}
+
+  .projet {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #dce8f5;
+    
 }
 
-header {
-    padding: 20px;
-    background: white;
-    text-align: center;
+
+
+
+.Technologies ~ img {
+    width: 50px;
+    height: 50px;
+    margin-left: 6%;
 }
 
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
+
+ul {
+    width: 88%;
+    margin-left: 6%;
+    padding-left: 25px;
 }
 
-main {
-    max-width: 900px;
-    margin: 40px auto;
+
+li {
+    margin-bottom: 12px;
+    color: #37629b;
+    font-size: 17px;
 }
 
-article {
-    padding: 40px;
-    background: white;
+
+.Objectifs {
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(207, 202, 196);
 }
 
-article h2 {
-    text-align: center;
+
+.voir {
+    margin: 30px 6%;
+    padding: 12px 25px;
+    background-color: #1463f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
-article img {
-    width: 100%;
+}
